@@ -1,4 +1,5 @@
 import { GraduationCap, Building2, Check } from "lucide-react";
+import { CountUp } from "./CountUp";
 
 type Card = {
   icon: typeof GraduationCap;
@@ -6,7 +7,7 @@ type Card = {
   title: string;
   description: string;
   bullets: string[];
-  stat: { value: string; label: string };
+  stat: { prefix: string; value: number; suffix: string; label: string };
   gradient: string;
   iconBg: string;
   ring: string;
@@ -25,7 +26,7 @@ const cards: Card[] = [
       "Cuotas, matrículas, cooperadora y eventos",
       "Reportes para la dirección y el consejo",
     ],
-    stat: { value: "+38%", label: "recupero promedio" },
+    stat: { prefix: "+", value: 38, suffix: "%", label: "recupero promedio" },
     gradient: "from-brand-700 via-brand-800 to-brand-900",
     iconBg: "bg-white/15 text-white",
     ring: "ring-brand-400/30",
@@ -42,7 +43,7 @@ const cards: Card[] = [
       "Cartera de morosos lista para asamblea",
       "Multi-edificio desde una sola cuenta",
     ],
-    stat: { value: "−60%", label: "tiempo en cobranza" },
+    stat: { prefix: "−", value: 60, suffix: "%", label: "tiempo en cobranza" },
     gradient: "from-success-700 via-success-700 to-emerald-900",
     iconBg: "bg-white/15 text-white",
     ring: "ring-success-400/30",
@@ -123,9 +124,12 @@ export function Audience() {
                   </ul>
 
                   <div className="mt-8 flex items-end gap-2 border-t border-white/15 pt-5">
-                    <span className="text-4xl font-extrabold tracking-tight">
-                      {card.stat.value}
-                    </span>
+                    <CountUp
+                      prefix={card.stat.prefix}
+                      value={card.stat.value}
+                      suffix={card.stat.suffix}
+                      className="text-4xl font-extrabold tracking-tight"
+                    />
                     <span className="mb-1 text-sm text-white/80">
                       {card.stat.label}
                     </span>

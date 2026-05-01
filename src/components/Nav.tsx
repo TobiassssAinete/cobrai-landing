@@ -6,8 +6,10 @@ import { Menu } from "lucide-react";
 
 const navLinks = [
   { href: "#como-funciona", label: "Cómo funciona" },
+  { href: "#demo", label: "Demo" },
   { href: "#precios", label: "Precios" },
-  { href: "#faq", label: "Preguntas frecuentes" },
+  { href: "#faq", label: "FAQ" },
+  { href: "#contacto", label: "Contacto" },
 ];
 
 export function Nav() {
