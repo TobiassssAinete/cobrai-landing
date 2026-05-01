@@ -1,8 +1,11 @@
 type Plan = {
   name: string;
   price: string;
+  priceCurrency?: string;
   priceSuffix?: string;
+  setup: string;
   highlight?: boolean;
+  tagline?: string;
   features: { label: string; value: string | true }[];
   cta: { label: string; href: string };
 };
@@ -10,8 +13,11 @@ type Plan = {
 const plans: Plan[] = [
   {
     name: "Esencial",
-    price: "$35.000",
+    price: "29",
+    priceCurrency: "USD",
     priceSuffix: "/mes",
+    setup: "Setup gratis",
+    tagline: "Para empezar a automatizar la cobranza",
     features: [
       { label: "Deudores activos", value: "Hasta 100" },
       { label: "Usuarios", value: "1 admin + 2 operadores" },
@@ -29,9 +35,12 @@ const plans: Plan[] = [
   },
   {
     name: "Pro",
-    price: "$75.000",
+    price: "99",
+    priceCurrency: "USD",
     priceSuffix: "/mes",
+    setup: "Setup USD 100 (one-time)",
     highlight: true,
+    tagline: "El más elegido por administraciones medianas",
     features: [
       { label: "Deudores activos", value: "Hasta 500" },
       { label: "Usuarios", value: "Ilimitados" },
@@ -54,10 +63,42 @@ const plans: Plan[] = [
     },
   },
   {
-    name: "A medida",
-    price: "Consultanos",
+    name: "Business",
+    price: "249",
+    priceCurrency: "USD",
+    priceSuffix: "/mes",
+    setup: "Setup USD 200 (one-time)",
+    tagline: "Para colegios y administraciones grandes",
     features: [
-      { label: "Deudores activos", value: "Más de 500" },
+      { label: "Deudores activos", value: "Hasta 1.500" },
+      { label: "Usuarios", value: "Ilimitados" },
+      { label: "WhatsApp + Email", value: true },
+      { label: "Portal del deudor", value: true },
+      {
+        label: "Dashboard gerencial",
+        value: "Completo + benchmarking",
+      },
+      { label: "Agente IA", value: true },
+      { label: "Exportación a Excel", value: true },
+      {
+        label: "Soporte",
+        value: "Dedicado + WhatsApp prioritario",
+      },
+    ],
+    cta: {
+      label: "Empezar →",
+      href: "https://wa.me/5493513162208?text=Hola!%20Quiero%20el%20Plan%20Business.",
+    },
+  },
+  {
+    name: "Enterprise",
+    price: "499",
+    priceCurrency: "USD",
+    priceSuffix: "/mes",
+    setup: "Setup USD 300 (one-time)",
+    tagline: "Volumen alto + integraciones a medida",
+    features: [
+      { label: "Deudores activos", value: "Más de 1.500" },
       { label: "Usuarios", value: "Ilimitados" },
       { label: "WhatsApp + Email", value: true },
       { label: "Portal del deudor", value: true },
@@ -71,7 +112,7 @@ const plans: Plan[] = [
     ],
     cta: {
       label: "Hablemos →",
-      href: "https://wa.me/5493513162208?text=Hola!%20Quiero%20un%20plan%20a%20medida.",
+      href: "https://wa.me/5493513162208?text=Hola!%20Quiero%20el%20Plan%20Enterprise.",
     },
   },
 ];
@@ -85,41 +126,52 @@ export function Pricing() {
             Precios claros. Sin letra chica.
           </h2>
           <p className="mt-4 text-lg text-slate-600">
-            Pagás por mes. Cancelás cuando quieras. Te facturamos con CAE.
+            Pagás por mes en USD. Cancelás cuando quieras. Te facturamos con CAE.
           </p>
         </div>
 
-        <div className="mt-14 grid gap-6 lg:grid-cols-3 lg:gap-8 lg:items-stretch">
+        <div className="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-4 xl:items-stretch">
           {plans.map((plan) => {
             const isPro = plan.highlight;
             return (
               <div
                 key={plan.name}
                 className={[
-                  "relative flex flex-col rounded-2xl border bg-white p-8 shadow-sm",
+                  "relative flex flex-col rounded-2xl border bg-white p-7 shadow-sm",
                   isPro
-                    ? "border-success-500 shadow-lg ring-1 ring-success-500 lg:-my-3 lg:scale-[1.02]"
+                    ? "border-success-500 shadow-lg ring-1 ring-success-500 xl:-my-3 xl:scale-[1.02]"
                     : "border-slate-200",
                 ].join(" ")}
               >
                 {isPro && (
-                  <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-success-600 px-3 py-1 text-xs font-bold uppercase tracking-wider text-white shadow-sm">
+                  <span className="absolute -top-3 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-success-600 px-3 py-1 text-xs font-bold uppercase tracking-wider text-white shadow-sm">
                     ⭐ Más popular
                   </span>
                 )}
                 <h3 className="text-xl font-bold tracking-tight text-slate-900">
                   {plan.name}
                 </h3>
-                <div className="mt-4 flex items-baseline gap-1">
+                {plan.tagline && (
+                  <p className="mt-1 text-sm text-slate-500">{plan.tagline}</p>
+                )}
+                <div className="mt-4 flex items-baseline gap-1.5">
+                  {plan.priceCurrency && (
+                    <span className="text-base font-semibold text-slate-500">
+                      {plan.priceCurrency}
+                    </span>
+                  )}
                   <span className="text-4xl font-extrabold tracking-tight text-slate-900">
                     {plan.price}
                   </span>
                   {plan.priceSuffix && (
-                    <span className="text-lg text-slate-500">
+                    <span className="text-base text-slate-500">
                       {plan.priceSuffix}
                     </span>
                   )}
                 </div>
+                <p className="mt-1 text-xs font-medium text-slate-500">
+                  {plan.setup}
+                </p>
 
                 <ul className="mt-6 flex-1 space-y-3 border-t border-slate-100 pt-6">
                   {plan.features.map((f) => (
@@ -161,7 +213,8 @@ export function Pricing() {
 
         <p className="mt-10 text-center text-sm text-slate-500">
           ¿Necesitás Factura A? Decinos al cerrar el plan. Aceptamos
-          transferencia y MP.
+          transferencia y MP. Precios en USD facturados al tipo de cambio del
+          día.
         </p>
       </div>
     </section>
