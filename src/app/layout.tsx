@@ -10,7 +10,7 @@ const jakarta = Plus_Jakarta_Sans({
   display: "swap",
 });
 
-const siteUrl = "https://cobrai.com.ar";
+const siteUrl = "https://cobrai-landing.vercel.app";
 const siteName = "Cobrai";
 const siteTitle = "Cobrai — Cobrá expensas y cuotas por WhatsApp | Argentina";
 const siteDescription =
