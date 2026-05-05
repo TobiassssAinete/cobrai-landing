@@ -1,4 +1,4 @@
-﻿import { Quote, Star } from "lucide-react";
+import { Quote, Star } from "lucide-react";
 
 type Testimonial = {
   quote: string;

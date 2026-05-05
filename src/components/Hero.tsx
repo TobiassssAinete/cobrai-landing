@@ -1,4 +1,4 @@
-﻿import { Check, Shield, Zap } from "lucide-react";
+import { Check, Shield, Zap } from "lucide-react";
 
 export function Hero() {
   return (

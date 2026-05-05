@@ -1,4 +1,4 @@
-﻿export type FAQItem = { q: string; a: string };
+export type FAQItem = { q: string; a: string };
 
 export const faqs: FAQItem[] = [
   {

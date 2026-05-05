@@ -1,4 +1,4 @@
-﻿const rows = [
+const rows = [
   {
     today: "Mandás recordatorios uno por uno por WhatsApp Web",
     cobria: "Automatizado: Cobria manda según el día de mora",

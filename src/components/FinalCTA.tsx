@@ -1,4 +1,4 @@
-﻿export function FinalCTA() {
+export function FinalCTA() {
   return (
     <section className="bg-gradient-to-b from-white via-slate-50 to-slate-100 py-16 sm:py-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">

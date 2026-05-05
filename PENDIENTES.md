@@ -1,4 +1,4 @@
-﻿# Cobria Landing — Pendientes
+# Cobria Landing — Pendientes
 
 > Estado: v1 implementada y buildeada localmente. Falta deploy + assets reales + páginas legales.
 

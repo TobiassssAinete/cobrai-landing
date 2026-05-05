@@ -1,4 +1,4 @@
-﻿import { GraduationCap, Building2, Check } from "lucide-react";
+import { GraduationCap, Building2, Check } from "lucide-react";
 import { CountUp } from "./CountUp";
 
 type Card = {

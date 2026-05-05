@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState, type FormEvent } from "react";
 import { Building2, GraduationCap, Mail, Send } from "lucide-react";

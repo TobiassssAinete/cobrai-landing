@@ -1,4 +1,4 @@
-﻿import { Play } from "lucide-react";
+import { Play } from "lucide-react";
 
 // TODO: cuando tengas el video grabado, reemplazá esta URL por el embed de
 // Loom o YouTube. Ejemplos:

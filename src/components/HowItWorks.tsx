@@ -1,4 +1,4 @@
-﻿const steps = [
+const steps = [
   {
     n: "1",
     title: "Importás tu cartera",
