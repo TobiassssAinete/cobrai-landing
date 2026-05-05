@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useState } from "react";
 
@@ -14,7 +14,7 @@ export function WhatsAppFab() {
 
   return (
     <a
-      href="https://wa.me/5493513162208?text=Hola!%20Quiero%20saber%20m%C3%A1s%20de%20Cobrai."
+      href="https://wa.me/5493513162208?text=Hola!%20Quiero%20saber%20m%C3%A1s%20de%20Cobria."
       target="_blank"
       rel="noreferrer"
       aria-label="Hablar por WhatsApp"

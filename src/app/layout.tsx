@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+﻿import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { faqs } from "@/lib/faqs";
@@ -11,9 +11,9 @@ const jakarta = Plus_Jakarta_Sans({
   display: "swap",
 });
 
-const siteUrl = "https://cobrai-landing.vercel.app";
-const siteName = "Cobrai";
-const siteTitle = "Cobrai — Cobrá expensas y cuotas por WhatsApp | Argentina";
+const siteUrl = "https://cobria-landing.vercel.app";
+const siteName = "Cobria";
+const siteTitle = "Cobria — Cobrá expensas y cuotas por WhatsApp | Argentina";
 const siteDescription =
   "Sistema de cobranza automatizado para colegios y consorcios en Argentina. Recordatorios por WhatsApp, portal de pago para deudores y dashboard en tiempo real. Probá gratis 30 días.";
 
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default: siteTitle,
-    template: "%s | Cobrai",
+    template: "%s | Cobria",
   },
   description: siteDescription,
   applicationName: siteName,
@@ -37,17 +37,17 @@ export const metadata: Metadata = {
     "portal de pago deudores",
     "automatización de cobranza",
     "recordatorios de pago",
-    "Cobrai",
+    "Cobria",
   ],
-  authors: [{ name: "Cobrai", url: siteUrl }],
-  creator: "Cobrai",
-  publisher: "Cobrai",
+  authors: [{ name: "Cobria", url: siteUrl }],
+  creator: "Cobria",
+  publisher: "Cobria",
   category: "Software",
   alternates: {
     canonical: siteUrl,
   },
   openGraph: {
-    title: "Cobrai — Cobrá por WhatsApp sin perseguir a nadie",
+    title: "Cobria — Cobrá por WhatsApp sin perseguir a nadie",
     description: siteDescription,
     url: siteUrl,
     siteName,
@@ -58,14 +58,14 @@ export const metadata: Metadata = {
         url: "/og-image.svg",
         width: 1200,
         height: 630,
-        alt: "Cobrai — Cobranza automatizada por WhatsApp",
+        alt: "Cobria — Cobranza automatizada por WhatsApp",
         type: "image/svg+xml",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cobrai — Cobrá por WhatsApp",
+    title: "Cobria — Cobrá por WhatsApp",
     description:
       "Cobranza automatizada para colegios y consorcios. Recordatorios, portal de pago y dashboard en tiempo real.",
     images: ["/og-image.svg"],

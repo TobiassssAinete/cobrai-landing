@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import { useState } from "react";
@@ -22,7 +22,7 @@ export function Nav() {
           href="/"
           className="text-xl font-extrabold tracking-tight text-brand-800"
         >
-          Cobrai
+          Cobria
         </Link>
 
         <div className="hidden items-center gap-8 md:flex">
@@ -39,7 +39,7 @@ export function Nav() {
 
         <div className="hidden items-center gap-3 md:flex">
           <a
-            href="https://wa.me/5493513162208?text=Hola!%20Quiero%20probar%20Cobrai%2030%20d%C3%ADas%20gratis."
+            href="https://wa.me/5493513162208?text=Hola!%20Quiero%20probar%20Cobria%2030%20d%C3%ADas%20gratis."
             target="_blank"
             rel="noreferrer"
             className="rounded-lg bg-success-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-success-700"
@@ -73,7 +73,7 @@ export function Nav() {
               </Link>
             ))}
             <a
-              href="https://wa.me/5493513162208?text=Hola!%20Quiero%20probar%20Cobrai%2030%20d%C3%ADas%20gratis."
+              href="https://wa.me/5493513162208?text=Hola!%20Quiero%20probar%20Cobria%2030%20d%C3%ADas%20gratis."
               target="_blank"
               rel="noreferrer"
               className="rounded-md bg-success-600 px-3 py-2 text-center text-base font-semibold text-white hover:bg-success-700"

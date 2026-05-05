@@ -1,4 +1,4 @@
-import {
+﻿import {
   MessageCircle,
   Link2,
   LineChart,
@@ -64,7 +64,7 @@ export function Features() {
           </h2>
           <p className="mt-4 text-lg text-slate-600">
             Una plataforma diseñada con administradores y directores que ya
-            usan Cobrai todos los días.
+            usan Cobria todos los días.
           </p>
         </div>
 

@@ -1,8 +1,8 @@
-const steps = [
+﻿const steps = [
   {
     n: "1",
     title: "Importás tu cartera",
-    body: "Subís un Excel o CSV con tus deudores y las cuotas/expensas. Cobrai detecta automáticamente cuáles son nuevos y cuáles ya están en el sistema. Tarda 5 minutos.",
+    body: "Subís un Excel o CSV con tus deudores y las cuotas/expensas. Cobria detecta automáticamente cuáles son nuevos y cuáles ya están en el sistema. Tarda 5 minutos.",
   },
   {
     n: "2",
@@ -12,7 +12,7 @@ const steps = [
   {
     n: "3",
     title: "Activás la campaña y listo",
-    body: "Cobrai manda los WhatsApp, recibe respuestas, registra pagos y te muestra todo en el dashboard. Vos solo intervenís cuando el sistema te avisa que hay algo que requiere tu atención.",
+    body: "Cobria manda los WhatsApp, recibe respuestas, registra pagos y te muestra todo en el dashboard. Vos solo intervenís cuando el sistema te avisa que hay algo que requiere tu atención.",
   },
 ];
 

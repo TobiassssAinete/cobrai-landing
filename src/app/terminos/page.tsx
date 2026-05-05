@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { LegalLayout } from "@/components/LegalLayout";
@@ -6,7 +6,7 @@ import { LegalLayout } from "@/components/LegalLayout";
 export const metadata: Metadata = {
   title: "Términos y Condiciones",
   description:
-    "Términos y condiciones de uso del servicio Cobrai — sistema de cobranza por WhatsApp para colegios y consorcios en Argentina.",
+    "Términos y condiciones de uso del servicio Cobria — sistema de cobranza por WhatsApp para colegios y consorcios en Argentina.",
   alternates: { canonical: "/terminos" },
 };
 
@@ -16,14 +16,14 @@ export default function TerminosPage() {
       <Nav />
       <LegalLayout title="Términos y condiciones" updated="1 de mayo de 2026">
         <p>
-          Bienvenido a Cobrai. Al contratar o utilizar nuestros servicios
+          Bienvenido a Cobria. Al contratar o utilizar nuestros servicios
           aceptás los siguientes términos. Si no estás de acuerdo, te pedimos
           que no uses la plataforma.
         </p>
 
         <h2>1. Quiénes somos</h2>
         <p>
-          Cobrai es un servicio de cobranza automatizada por WhatsApp diseñado
+          Cobria es un servicio de cobranza automatizada por WhatsApp diseñado
           para colegios, instituciones educativas, consorcios y administraciones
           en Argentina. Contacto: <a href="mailto:cobriasas@gmail.com">cobriasas@gmail.com</a>{" "}
           · WhatsApp: <a href="https://wa.me/5493513162208">+54 9 351 316-2208</a>.
@@ -31,7 +31,7 @@ export default function TerminosPage() {
 
         <h2>2. Objeto del servicio</h2>
         <p>
-          Cobrai brinda al cliente (en adelante, &quot;el Cliente&quot;) una
+          Cobria brinda al cliente (en adelante, &quot;el Cliente&quot;) una
           plataforma para automatizar el envío de recordatorios de pago,
           generación de links de cobranza y seguimiento de su cartera de
           deudores. El servicio se presta &quot;tal cual está&quot; sin
@@ -47,17 +47,17 @@ export default function TerminosPage() {
           </li>
           <li>
             El Cliente debe mantener confidenciales sus credenciales de acceso
-            y notificar a Cobrai ante cualquier uso no autorizado.
+            y notificar a Cobria ante cualquier uso no autorizado.
           </li>
           <li>
-            Está prohibido usar Cobrai para enviar spam, contenido ilegal,
+            Está prohibido usar Cobria para enviar spam, contenido ilegal,
             ofensivo o no relacionado con la cobranza acordada.
           </li>
         </ul>
 
         <h2>4. Pagos, planes y prueba gratuita</h2>
         <p>
-          Cobrai ofrece distintos planes mensuales detallados en{" "}
+          Cobria ofrece distintos planes mensuales detallados en{" "}
           <a href="/#precios">la sección de precios</a>. Los precios pueden ser
           actualizados con un preaviso de 30 días. La prueba gratuita de 30
           días es sin tarjeta y sin permanencia: si al finalizar el período no
@@ -74,24 +74,24 @@ export default function TerminosPage() {
 
         <h2>6. WhatsApp Business y plataformas de terceros</h2>
         <p>
-          Cobrai opera sobre la API oficial de WhatsApp Business (Meta
+          Cobria opera sobre la API oficial de WhatsApp Business (Meta
           Platforms, Inc.). El Cliente se compromete a respetar las políticas
-          de uso de WhatsApp y entiende que Cobrai no es responsable por
+          de uso de WhatsApp y entiende que Cobria no es responsable por
           decisiones unilaterales de Meta sobre la cuenta del Cliente.
         </p>
 
         <h2>7. Limitación de responsabilidad</h2>
         <p>
-          La responsabilidad de Cobrai se limita al monto efectivamente abonado
+          La responsabilidad de Cobria se limita al monto efectivamente abonado
           por el Cliente en los 3 meses anteriores al hecho que dio origen al
-          reclamo. Cobrai no se responsabiliza por lucro cesante, pérdida
+          reclamo. Cobria no se responsabiliza por lucro cesante, pérdida
           indirecta o daños causados por el mal uso de la plataforma.
         </p>
 
         <h2>8. Propiedad intelectual</h2>
         <p>
           Todos los derechos sobre el software, marca, logo y contenido del
-          sitio pertenecen a Cobrai. El Cliente conserva la propiedad de los
+          sitio pertenecen a Cobria. El Cliente conserva la propiedad de los
           datos que sube a la plataforma.
         </p>
 
@@ -105,7 +105,7 @@ export default function TerminosPage() {
 
         <h2>10. Modificaciones</h2>
         <p>
-          Cobrai se reserva el derecho de modificar estos términos. Cualquier
+          Cobria se reserva el derecho de modificar estos términos. Cualquier
           cambio será notificado por email con al menos 15 días de
           anticipación.
         </p>

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, type FormEvent } from "react";
 import { Building2, GraduationCap, Mail, Send } from "lucide-react";
@@ -28,7 +28,7 @@ export function ContactForm() {
       `Teléfono: ${phone || "no especificado"}`,
       "",
       "Consulta:",
-      message || "Quiero conocer más sobre Cobrai.",
+      message || "Quiero conocer más sobre Cobria.",
     ];
     const body = lines.join("\n");
 
@@ -36,7 +36,7 @@ export function ContactForm() {
       const url = `https://wa.me/5493513162208?text=${encodeURIComponent(body)}`;
       window.open(url, "_blank", "noopener,noreferrer");
     } else {
-      const subject = `Consulta de ${name || "interesado en Cobrai"}`;
+      const subject = `Consulta de ${name || "interesado en Cobria"}`;
       const url = `mailto:cobriasas@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
       window.location.href = url;
     }

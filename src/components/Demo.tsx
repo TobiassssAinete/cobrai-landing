@@ -1,4 +1,4 @@
-import { Play } from "lucide-react";
+﻿import { Play } from "lucide-react";
 
 // TODO: cuando tengas el video grabado, reemplazá esta URL por el embed de
 // Loom o YouTube. Ejemplos:
@@ -22,7 +22,7 @@ export function Demo() {
             ▶ Demo en 3 minutos
           </span>
           <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
-            Mirá Cobrai en acción
+            Mirá Cobria en acción
           </h2>
           <p className="mt-4 text-lg text-slate-600">
             De importar tu cartera de deudores al primer mensaje enviado, en
@@ -35,7 +35,7 @@ export function Demo() {
             {VIDEO_URL ? (
               <iframe
                 src={VIDEO_URL}
-                title="Demo de Cobrai"
+                title="Demo de Cobria"
                 allow="autoplay; fullscreen; picture-in-picture"
                 allowFullScreen
                 className="absolute inset-0 size-full"
@@ -48,7 +48,7 @@ export function Demo() {
 
           <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <a
-              href="https://wa.me/5493513162208?text=Hola!%20Quiero%20agendar%20una%20demo%20en%20vivo%20de%20Cobrai."
+              href="https://wa.me/5493513162208?text=Hola!%20Quiero%20agendar%20una%20demo%20en%20vivo%20de%20Cobria."
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-lg bg-success-600 px-6 py-3 text-base font-semibold text-white shadow-sm transition-all hover:-translate-y-0.5 hover:bg-success-700 hover:shadow-lg"

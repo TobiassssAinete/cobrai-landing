@@ -1,4 +1,4 @@
-import { GraduationCap, Building2, Check } from "lucide-react";
+﻿import { GraduationCap, Building2, Check } from "lucide-react";
 import { CountUp } from "./CountUp";
 
 type Card = {
@@ -61,7 +61,7 @@ export function Audience() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <span className="inline-flex items-center rounded-full bg-white px-3 py-1 text-xs font-semibold uppercase tracking-wider text-slate-700 shadow-sm ring-1 ring-slate-200">
-            ¿Para quién es Cobrai?
+            ¿Para quién es Cobria?
           </span>
           <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
             Pensado para colegios{" "}

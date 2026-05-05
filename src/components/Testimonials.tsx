@@ -1,4 +1,4 @@
-import { Quote, Star } from "lucide-react";
+﻿import { Quote, Star } from "lucide-react";
 
 type Testimonial = {
   quote: string;
@@ -24,7 +24,7 @@ const testimonials: Testimonial[] = [
   },
   {
     quote:
-      "Antes teníamos que justificar la mora en cada asamblea con planillas de Excel hechas a mano. Hoy abro Cobrai y muestro los números en vivo.",
+      "Antes teníamos que justificar la mora en cada asamblea con planillas de Excel hechas a mano. Hoy abro Cobria y muestro los números en vivo.",
     name: "Diego A.",
     role: "Administrador de consorcios",
     org: "8 edificios · CABA",
@@ -57,7 +57,7 @@ export function Testimonials() {
             ★ Casos reales
           </span>
           <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
-            Lo que dicen quienes ya cobran con Cobrai
+            Lo que dicen quienes ya cobran con Cobria
           </h2>
           <p className="mt-4 text-lg text-slate-600">
             Colegios y consorcios de Córdoba, CABA y Rosario que pasaron del

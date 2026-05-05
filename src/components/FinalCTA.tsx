@@ -1,4 +1,4 @@
-export function FinalCTA() {
+﻿export function FinalCTA() {
   return (
     <section className="bg-gradient-to-b from-white via-slate-50 to-slate-100 py-16 sm:py-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
@@ -13,14 +13,14 @@ export function FinalCTA() {
           />
           <div className="relative">
             <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl lg:text-5xl">
-              Probá Cobrai 30 días gratis
+              Probá Cobria 30 días gratis
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-lg text-white/90 sm:text-xl">
               Sin tarjeta. Sin instalación. Te ayudamos con la migración.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a
-                href="https://wa.me/5493513162208?text=Hola!%20Quiero%20probar%20Cobrai%2030%20d%C3%ADas%20gratis."
+                href="https://wa.me/5493513162208?text=Hola!%20Quiero%20probar%20Cobria%2030%20d%C3%ADas%20gratis."
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-lg bg-white px-7 py-4 text-base font-bold text-success-700 shadow-lg transition-all hover:-translate-y-0.5 hover:bg-slate-50 hover:shadow-xl sm:text-lg"
@@ -31,7 +31,7 @@ export function FinalCTA() {
                 Hablar por WhatsApp
               </a>
               <a
-                href="mailto:cobriasas@gmail.com?subject=Quiero probar Cobrai"
+                href="mailto:cobriasas@gmail.com?subject=Quiero probar Cobria"
                 className="inline-flex items-center justify-center rounded-lg border border-white/40 bg-white/10 px-7 py-4 text-base font-bold text-white backdrop-blur transition-all hover:bg-white/20 sm:text-lg"
               >
                 Escribir por mail

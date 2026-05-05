@@ -1,27 +1,27 @@
-const rows = [
+﻿const rows = [
   {
     today: "Mandás recordatorios uno por uno por WhatsApp Web",
-    cobrai: "Automatizado: Cobrai manda según el día de mora",
+    cobria: "Automatizado: Cobria manda según el día de mora",
   },
   {
     today: "No sabés quién leyó tu mensaje",
-    cobrai: "Dashboard te muestra entregados, leídos y respondidos",
+    cobria: "Dashboard te muestra entregados, leídos y respondidos",
   },
   {
     today: "Para mandar el CBU copiás y pegás en cada chat",
-    cobrai: "Cada deudor recibe un link único con sus datos de pago",
+    cobria: "Cada deudor recibe un link único con sus datos de pago",
   },
   {
     today: "El Excel de morosos lo actualizás a mano",
-    cobrai: "Se actualiza solo cada vez que llega un pago",
+    cobria: "Se actualiza solo cada vez que llega un pago",
   },
   {
     today: "Para la asamblea/reunión hacés un PDF aparte",
-    cobrai: "Exportás la cartera completa a Excel en 1 click",
+    cobria: "Exportás la cartera completa a Excel en 1 click",
   },
   {
     today: 'Si alguien responde "ya pagué", lo investigás vos',
-    cobrai:
+    cobria:
       "El agente IA detecta intenciones y te avisa solo lo importante",
   },
 ];
@@ -41,7 +41,7 @@ export function ProblemSolution() {
           <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
             Si esto te suena familiar,{" "}
             <span className="bg-gradient-to-r from-brand-700 to-success-600 bg-clip-text text-transparent">
-              Cobrai es para vos.
+              Cobria es para vos.
             </span>
           </h2>
         </div>
@@ -78,7 +78,7 @@ export function ProblemSolution() {
               <span className="flex size-9 items-center justify-center rounded-full bg-success-500/15 text-success-700 ring-1 ring-inset ring-success-200">
                 <svg viewBox="0 0 20 20" fill="currentColor" className="size-4"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/></svg>
               </span>
-              <h3 className="text-xl font-bold text-slate-900">Con Cobrai</h3>
+              <h3 className="text-xl font-bold text-slate-900">Con Cobria</h3>
             </div>
             <ul className="space-y-4">
               {rows.map((row, i) => (
@@ -89,7 +89,7 @@ export function ProblemSolution() {
                   <span aria-hidden className="mt-1 text-success-600">
                     ✓
                   </span>
-                  <span>{row.cobrai}</span>
+                  <span>{row.cobria}</span>
                 </li>
               ))}
             </ul>

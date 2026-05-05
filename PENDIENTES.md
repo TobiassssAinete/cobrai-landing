@@ -1,4 +1,4 @@
-# Cobrai Landing — Pendientes
+﻿# Cobria Landing — Pendientes
 
 > Estado: v1 implementada y buildeada localmente. Falta deploy + assets reales + páginas legales.
 
@@ -16,8 +16,8 @@ El footer linkea a `/terminos` y `/privacidad` pero las rutas no existen → cli
 
 **Alternativa si todavía no las tenés:** sacar los links del Footer hasta que estén.
 
-### 2. Email `hola@cobrai.com.ar`
-Es el único canal de contacto en toda la landing (todos los CTAs son `mailto:hola@cobrai.com.ar`). Si no existe o no reenvía → leads perdidos.
+### 2. Email `hola@cobria.com.ar`
+Es el único canal de contacto en toda la landing (todos los CTAs son `mailto:hola@cobria.com.ar`). Si no existe o no reenvía → leads perdidos.
 
 **Cómo:**
 - Crear el alias en tu proveedor de DNS/mail (Cloudflare Email Routing es gratis, o Google Workspace si querés profesional).
@@ -28,18 +28,18 @@ Es el único canal de contacto en toda la landing (todos los CTAs son `mailto:ho
 La landing solo corre local. Para que sea pública:
 
 ```bash
-cd cobrai-landing
+cd cobria-landing
 git init
 git add .
 git commit -m "feat: initial landing"
 git branch -M main
-gh repo create alejocarranza/cobrai-landing --public --source=. --push
+gh repo create alejocarranza/cobria-landing --public --source=. --push
 ```
 
-Después en `vercel.com` → Add New Project → importar `cobrai-landing` → Deploy.
+Después en `vercel.com` → Add New Project → importar `cobria-landing` → Deploy.
 
 **Domain:**
-- Cuando NIC.ar confirme `cobrai.com.ar`, en Vercel → Settings → Domains → Add → seguir las instrucciones DNS.
+- Cuando NIC.ar confirme `cobria.com.ar`, en Vercel → Settings → Domains → Add → seguir las instrucciones DNS.
 - Más simple: poner Cloudflare en el medio (DNS gratis + SSL + analytics).
 
 ---
@@ -50,11 +50,11 @@ Después en `vercel.com` → Add New Project → importar `cobrai-landing` → D
 Hoy compartir el link en WhatsApp/Twitter/LinkedIn muestra solo título + descripción, sin imagen. Esto es el 80% del CTR en redes.
 
 **Cómo:**
-- Diseñar `og.png` 1200×630 con logo Cobrai + headline "Cobrá por WhatsApp" + fondo brand.
+- Diseñar `og.png` 1200×630 con logo Cobria + headline "Cobrá por WhatsApp" + fondo brand.
 - Guardarlo en `public/og.png`.
 - En `src/app/layout.tsx`, dentro de `metadata.openGraph` agregar:
   ```ts
-  images: [{ url: "https://cobrai.com.ar/og.png", width: 1200, height: 630 }],
+  images: [{ url: "https://cobria.com.ar/og.png", width: 1200, height: 630 }],
   ```
 - Mismo agregar en `metadata.twitter` con `card: "summary_large_image"`.
 - Validar con `https://opengraph.xyz/url/...` después del deploy.
@@ -63,16 +63,16 @@ Hoy compartir el link en WhatsApp/Twitter/LinkedIn muestra solo título + descri
 El Hero tiene un placeholder gris con un emoji 📊. Reemplazar por screenshot real cuando la app productiva esté visible.
 
 **Cómo:**
-- Tomar screenshot de `app.cobrai.com.ar` (1600×1200 aprox).
+- Tomar screenshot de `app.cobria.com.ar` (1600×1200 aprox).
 - Guardar en `public/dashboard.png`.
 - En `src/components/Hero.tsx`, reemplazar el `<div>` placeholder por:
   ```tsx
-  <Image src="/dashboard.png" alt="Dashboard de Cobrai" width={1600} height={1200} priority />
+  <Image src="/dashboard.png" alt="Dashboard de Cobria" width={1600} height={1200} priority />
   ```
 - Importar `Image` de `next/image`.
 
-### 6. Favicon Cobrai
-Hoy es el favicon default de Next (la N negra). Reemplazar `src/app/favicon.ico` por uno con la C de Cobrai en brand-800.
+### 6. Favicon Cobria
+Hoy es el favicon default de Next (la N negra). Reemplazar `src/app/favicon.ico` por uno con la C de Cobria en brand-800.
 
 **Cómo:** generar en `https://realfavicongenerator.net` desde un SVG/PNG simple.
 
@@ -90,11 +90,11 @@ La landing es responsive (probada con DevTools al construirla) pero **no probada
 ### 8. Lighthouse > 90 en Performance + Accessibility
 Después del deploy:
 ```bash
-npx lighthouse https://cobrai.com.ar --view
+npx lighthouse https://cobria.com.ar --view
 ```
 Si baja de 90, los culpables más probables: imágenes sin optimizar, JS de Vercel Analytics si tarda, faltan `alt` o `aria-label`.
 
-### 9. Test de comprensión con 3 personas que NO conocen Cobrai
+### 9. Test de comprensión con 3 personas que NO conocen Cobria
 Mandales el link y preguntales (en WhatsApp): *"¿qué hace esto?"* — sin contexto. Si tardan más de 10 segundos en entender, hay que reescribir el headline o la subhead.
 
 ### 10. PostHog para session replays + funnel
@@ -110,14 +110,14 @@ pnpm add posthog-js
 ### 11. Cambiar "WhatsApp soporte" del footer
 Hoy el link es `mailto:` con subject "Soporte". Cuando tengan número de WhatsApp Business activo, cambiarlo a:
 ```ts
-{ label: "WhatsApp soporte", href: "https://wa.me/549XXXXXXXXXX?text=Hola%20Cobrai" }
+{ label: "WhatsApp soporte", href: "https://wa.me/549XXXXXXXXXX?text=Hola%20Cobria" }
 ```
 en `src/components/Footer.tsx`.
 
 ### 12. Logo SVG real
-Hoy es texto "Cobrai" en Plus Jakarta Sans bold con color brand-800 — funciona, pero un logo SVG simple suma profesionalidad. Encargar a un diseñador o sacar uno con Figma/Logoist (~30 min).
+Hoy es texto "Cobria" en Plus Jakarta Sans bold con color brand-800 — funciona, pero un logo SVG simple suma profesionalidad. Encargar a un diseñador o sacar uno con Figma/Logoist (~30 min).
 
-Reemplazar el `<Link href="/" className="...">Cobrai</Link>` en `Nav.tsx` y `Footer.tsx` por un `<Image>` o `<svg>` inline.
+Reemplazar el `<Link href="/" className="...">Cobria</Link>` en `Nav.tsx` y `Footer.tsx` por un `<Image>` o `<svg>` inline.
 
 ---
 
@@ -147,7 +147,7 @@ Reemplazar el `<Link href="/" className="...">Cobrai</Link>` en `Nav.tsx` y `Foo
 | # | Item | Bloquea ir live? | Tiempo |
 |---|---|---|---|
 | 1 | Términos + Privacidad | ✅ | 1-2 hs |
-| 2 | Email hola@cobrai.com.ar | ✅ | 15 min |
+| 2 | Email hola@cobria.com.ar | ✅ | 15 min |
 | 3 | Deploy + dominio | ✅ | 30 min + DNS prop |
 | 4 | OG image | 🟡 fuerte | 1 hs |
 | 5 | Screenshot dashboard | 🟡 | 15 min |

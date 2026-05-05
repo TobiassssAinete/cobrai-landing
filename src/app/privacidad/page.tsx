@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { LegalLayout } from "@/components/LegalLayout";
@@ -6,7 +6,7 @@ import { LegalLayout } from "@/components/LegalLayout";
 export const metadata: Metadata = {
   title: "Política de Privacidad",
   description:
-    "Política de privacidad y tratamiento de datos personales de Cobrai, conforme a la Ley 25.326 de Protección de Datos Personales de Argentina.",
+    "Política de privacidad y tratamiento de datos personales de Cobria, conforme a la Ley 25.326 de Protección de Datos Personales de Argentina.",
   alternates: { canonical: "/privacidad" },
 };
 
@@ -19,7 +19,7 @@ export default function PrivacidadPage() {
         updated="1 de mayo de 2026"
       >
         <p>
-          En Cobrai protegemos los datos personales de nuestros clientes y de
+          En Cobria protegemos los datos personales de nuestros clientes y de
           los deudores que estos gestionan en la plataforma. Esta política
           describe qué información recopilamos, cómo la usamos y los derechos
           que te corresponden, conforme a la{" "}
@@ -29,7 +29,7 @@ export default function PrivacidadPage() {
 
         <h2>1. Responsable del tratamiento</h2>
         <p>
-          Cobrai · contacto:{" "}
+          Cobria · contacto:{" "}
           <a href="mailto:cobriasas@gmail.com">cobriasas@gmail.com</a> ·
           WhatsApp:{" "}
           <a href="https://wa.me/5493513162208">+54 9 351 316-2208</a> ·
@@ -50,7 +50,7 @@ export default function PrivacidadPage() {
             expensa.
           </li>
           <li>
-            Estos datos son cargados y administrados por el Cliente. Cobrai
+            Estos datos son cargados y administrados por el Cliente. Cobria
             actúa como encargado del tratamiento conforme al artículo 25 de la
             Ley 25.326.
           </li>
@@ -77,7 +77,7 @@ export default function PrivacidadPage() {
 
         <h2>4. Con quién compartimos los datos</h2>
         <p>
-          Cobrai no vende ni cede datos personales a terceros. Compartimos
+          Cobria no vende ni cede datos personales a terceros. Compartimos
           información únicamente con proveedores que nos permiten prestar el
           servicio:
         </p>
@@ -99,7 +99,7 @@ export default function PrivacidadPage() {
         <h2>5. Seguridad</h2>
         <ul>
           <li>Conexiones cifradas mediante HTTPS / TLS.</li>
-          <li>Datos de tarjetas de crédito: Cobrai NO los almacena.</li>
+          <li>Datos de tarjetas de crédito: Cobria NO los almacena.</li>
           <li>
             Acceso a la base de datos restringido por roles y autenticación de
             dos factores.
@@ -132,7 +132,7 @@ export default function PrivacidadPage() {
 
         <h2>8. Menores de edad</h2>
         <p>
-          Cobrai está diseñado para ser usado por administradores adultos. Los
+          Cobria está diseñado para ser usado por administradores adultos. Los
           datos de alumnos menores son tratados únicamente como referencia
           contextual de la cuota; toda comunicación se dirige al
           padre/madre/tutor cargado por el Cliente.

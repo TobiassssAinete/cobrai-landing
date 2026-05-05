@@ -1,4 +1,4 @@
-export type FAQItem = { q: string; a: string };
+﻿export type FAQItem = { q: string; a: string };
 
 export const faqs: FAQItem[] = [
   {
@@ -14,12 +14,12 @@ export const faqs: FAQItem[] = [
     a: "No. Reciben un mensaje de WhatsApp normal con un link. Al abrirlo ven los datos para pagar (CBU, alias, monto, fecha). Funciona en cualquier celular.",
   },
   {
-    q: "¿Puedo conectar Cobrai con mi sistema contable / administración?",
+    q: "¿Puedo conectar Cobria con mi sistema contable / administración?",
     a: "En el plan Pro y A medida sí. Hoy importamos y exportamos Excel. Para integraciones automáticas (con tu sistema de gestión de colegio o de consorcios), pedinos el plan A medida.",
   },
   {
     q: "¿Y si un padre o propietario no tiene WhatsApp?",
-    a: "Cobrai también manda por email y te avisa si el WhatsApp no llegó. Para esos casos puntuales podés usar el portal directo (le pasás el link por SMS, o se lo das en mano impreso con un código).",
+    a: "Cobria también manda por email y te avisa si el WhatsApp no llegó. Para esos casos puntuales podés usar el portal directo (le pasás el link por SMS, o se lo das en mano impreso con un código).",
   },
   {
     q: "¿Cómo cancelo si no me sirve?",

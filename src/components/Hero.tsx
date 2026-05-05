@@ -1,4 +1,4 @@
-import { Check, Shield, Zap } from "lucide-react";
+﻿import { Check, Shield, Zap } from "lucide-react";
 
 export function Hero() {
   return (
@@ -34,13 +34,13 @@ export function Hero() {
               por WhatsApp.
             </h1>
             <p className="mt-6 max-w-xl text-lg text-slate-600 sm:text-xl">
-              Cobrai automatiza recordatorios, mora y links de pago para
+              Cobria automatiza recordatorios, mora y links de pago para
               colegios y consorcios. Vos seguís siendo la cara amable; el
               sistema hace el trabajo pesado.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a
-                href="https://wa.me/5493513162208?text=Hola!%20Quiero%20probar%20Cobrai%2030%20d%C3%ADas%20gratis."
+                href="https://wa.me/5493513162208?text=Hola!%20Quiero%20probar%20Cobria%2030%20d%C3%ADas%20gratis."
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-lg bg-success-600 px-6 py-3.5 text-base font-semibold text-white shadow-sm transition-all hover:-translate-y-0.5 hover:bg-success-700 hover:shadow-lg"
@@ -165,7 +165,7 @@ function HeroVisual() {
                   <div className="max-w-[85%] overflow-hidden rounded-2xl rounded-tl-sm bg-white shadow-sm">
                     <div className="bg-gradient-to-br from-brand-600 to-brand-800 p-3">
                       <p className="text-[10px] font-medium uppercase tracking-wider text-white/70">
-                        Cobrai · Pago seguro
+                        Cobria · Pago seguro
                       </p>
                       <p className="mt-1 text-2xl font-extrabold tracking-tight text-white">
                         $48.500
