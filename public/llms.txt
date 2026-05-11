@@ -43,9 +43,18 @@ Cobria automatiza la cobranza de cuotas y expensas para organizaciones argentina
 - Cobria para consorcios: https://cobria.org/consorcios
 - Precios: https://cobria.org/precios
 - Preguntas frecuentes: https://cobria.org/faq
+- Blog: https://cobria.org/blog
 - Contacto: https://cobria.org/contacto
 - Términos y condiciones: https://cobria.org/terminos
 - Política de privacidad: https://cobria.org/privacidad
+
+## Artículos del blog
+- Cómo cobrar cuotas de un colegio por WhatsApp: https://cobria.org/blog/como-cobrar-cuotas-colegio-por-whatsapp
+- Cómo cobrar expensas por WhatsApp: https://cobria.org/blog/como-cobrar-expensas-por-whatsapp
+- Excel vs sistema de cobranza: https://cobria.org/blog/excel-vs-sistema-de-cobranza
+- Reducir la mora en un consorcio: https://cobria.org/blog/reducir-mora-consorcio
+- Qué es la cobranza automatizada: https://cobria.org/blog/que-es-cobranza-automatizada
+- 5 errores comunes al cobrar cuotas en colegios: https://cobria.org/blog/errores-cobranza-cuotas-colegios
 
 ## Contacto oficial
 - WhatsApp: +54 9 351 316-2208

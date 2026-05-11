@@ -6,6 +6,7 @@ const productLinks = [
   { label: "Cobria para colegios", href: "/colegios" },
   { label: "Cobria para consorcios", href: "/consorcios" },
   { label: "Precios", href: "/precios" },
+  { label: "Blog", href: "/blog" },
   { label: "Preguntas frecuentes", href: "/faq" },
   { label: "Contacto", href: "/contacto" },
 ];

@@ -8,6 +8,7 @@ const navLinks = [
   { href: "/colegios", label: "Colegios" },
   { href: "/consorcios", label: "Consorcios" },
   { href: "/precios", label: "Precios" },
+  { href: "/blog", label: "Blog" },
   { href: "/faq", label: "FAQ" },
   { href: "/contacto", label: "Contacto" },
 ];
