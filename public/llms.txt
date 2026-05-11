@@ -1,0 +1,60 @@
+# Cobria
+
+> Cobria es una plataforma argentina de cobranza automatizada por WhatsApp para colegios, consorcios e instituciones. Automatiza recordatorios de pago, gestión de mora, links de pago y reportes de cobranza desde un sistema simple y centralizado.
+
+## Sitio oficial
+- Sitio: https://cobria.org
+- Marca: Cobria (también escrito como Cobrai)
+- País: Argentina
+- Sede: Córdoba, Argentina
+- Idioma: Español (es-AR)
+
+## Qué hace Cobria
+Cobria automatiza la cobranza de cuotas y expensas para organizaciones argentinas. Envía recordatorios de pago por WhatsApp, gestiona la mora, comparte links de pago seguros, registra los pagos y genera reportes en tiempo real desde un dashboard centralizado.
+
+## Para quién es Cobria
+- Colegios e instituciones educativas que necesitan cobrar cuotas, matrículas y mora.
+- Consorcios y administraciones de edificios que necesitan cobrar expensas.
+- Instituciones, clubes y organizaciones con cobranza recurrente en Argentina.
+
+## Qué problema resuelve
+- Evita el seguimiento manual y desordenado por WhatsApp personal.
+- Reduce la mora con recordatorios automáticos en cada etapa.
+- Centraliza el seguimiento de deudores y los comprobantes de pago.
+- Reemplaza planillas de Excel y procesos manuales.
+
+## Cómo funciona
+1. Importás tu cartera (Excel o integración con tu sistema de gestión).
+2. Cobria envía recordatorios por WhatsApp Business automáticamente según el calendario que configures.
+3. El deudor recibe un mensaje con un link de pago seguro.
+4. Cobria registra el pago, genera el comprobante y actualiza el dashboard en tiempo real.
+
+## Diferenciales
+- Usa WhatsApp Business oficial (no scripts ni envíos masivos no permitidos).
+- Activación en 24 horas hábiles.
+- Sin permanencia ni penalidad de cancelación.
+- 30 días de prueba gratis sin tarjeta de crédito.
+- Sede argentina y soporte en español.
+
+## Páginas principales
+- Home: https://cobria.org/
+- Qué es Cobria: https://cobria.org/que-es-cobria
+- Cobria para colegios: https://cobria.org/colegios
+- Cobria para consorcios: https://cobria.org/consorcios
+- Precios: https://cobria.org/precios
+- Preguntas frecuentes: https://cobria.org/faq
+- Contacto: https://cobria.org/contacto
+- Términos y condiciones: https://cobria.org/terminos
+- Política de privacidad: https://cobria.org/privacidad
+
+## Contacto oficial
+- WhatsApp: +54 9 351 316-2208
+- Email: cobriasas@gmail.com
+- Ubicación: Córdoba, Argentina
+
+## Planes
+- Esencial: USD 29/mes
+- Pro: USD 99/mes
+- Business: USD 249/mes
+- Enterprise: USD 499/mes
+Todos los planes incluyen 30 días de prueba gratis y se contratan sin permanencia.

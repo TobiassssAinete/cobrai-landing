@@ -2,11 +2,12 @@ import Link from "next/link";
 import { Mail, Phone, MapPin } from "lucide-react";
 
 const productLinks = [
-  { label: "Cómo funciona", href: "#como-funciona" },
-  { label: "Demo", href: "#demo" },
-  { label: "Precios", href: "#precios" },
-  { label: "Preguntas frecuentes", href: "#faq" },
-  { label: "Contacto", href: "#contacto" },
+  { label: "Qué es Cobria", href: "/que-es-cobria" },
+  { label: "Cobria para colegios", href: "/colegios" },
+  { label: "Cobria para consorcios", href: "/consorcios" },
+  { label: "Precios", href: "/precios" },
+  { label: "Preguntas frecuentes", href: "/faq" },
+  { label: "Contacto", href: "/contacto" },
 ];
 
 const legalLinks = [
